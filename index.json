@@ -1,0 +1,532 @@
+{
+  "schema": 1,
+  "name": "fastDev skeletons",
+  "skeletons": [
+    {
+      "id": "chrome-extensions",
+      "repo": "https://github.com/roma-vibe/fastdev-chrome-extensions.git",
+      "name": "Chrome Extensions",
+      "description": "An npm workspace for several Chrome extensions (Manifest V3, Vue 3, Tailwind CSS 4, TypeScript) that share one node_modules and one package-lock.json. The included template extension opens in the side panel or as a popup and has a service worker, Pinia stores, services over chrome.storage.local, a manifest generated from its own .env, a Notes example with tests and a zero-warning quality gate (ESLint, Prettier, vue-tsc, Vitest). `npm run new -- \"Name\"` copies it into a new extension; Dev rebuilds every extension for Load unpacked in Chrome, and Package zips them for the Chrome Web Store.",
+      "category": "web",
+      "languages": [
+        "node"
+      ],
+      "tags": [
+        "chrome",
+        "extension",
+        "chrome-extension",
+        "manifest-v3",
+        "side-panel",
+        "vue",
+        "tailwind",
+        "typescript",
+        "pinia",
+        "vite",
+        "workspace",
+        "monorepo"
+      ],
+      "stack": [
+        "Node.js 24+ (npm workspaces)",
+        "Chrome Manifest V3 (Chrome 141+)",
+        "Vue 3.5",
+        "Vite 8",
+        "Pinia 4",
+        "Vue Router 5",
+        "Tailwind CSS 4",
+        "Font Awesome 7",
+        "TypeScript 6.0",
+        "Vitest 5 + jsdom",
+        "ESLint 10 + Prettier 3"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "An npm workspace for several Chrome extensions (Manifest V3, Vue 3, Tailwind CSS 4, TypeScript) that share one node_modules and one package-lock.json. The included template extension opens in the side panel or as a popup and has a service worker, Pinia stores, services over chrome.storage.local, a manifest generated from its own .env, a Notes example with tests and a zero-warning quality gate (ESLint, Prettier, vue-tsc, Vitest). `npm run new -- \"Name\"` copies it into a new extension; Dev rebuilds every extension for Load unpacked in Chrome, and Package zips them for the Chrome Web Store.": "npm-workspace для нескольких расширений Chrome (Manifest V3, Vue 3, Tailwind CSS 4, TypeScript) с общими node_modules и package-lock.json. Шаблонное расширение открывается в боковой панели или во всплывающем окне; в нём есть service worker, Pinia-сторы, сервисы поверх chrome.storage.local, manifest, который собирается из собственного .env, пример «Заметки» с тестами и проверка качества без предупреждений (ESLint, Prettier, vue-tsc, Vitest). `npm run new -- \"Имя\"` копирует его в новое расширение; Dev пересобирает все расширения для загрузки в Chrome через «Загрузить распакованное», а Package упаковывает их в zip для Chrome Web Store.",
+          "Chrome Extensions": "Расширения Chrome"
+        }
+      }
+    },
+    {
+      "id": "flutter-app",
+      "repo": "https://github.com/roma-vibe/fastdev-flutter-app.git",
+      "name": "Flutter App",
+      "description": "A Flutter app for Android and iOS with a browser preview, a responsive Liquid Glass design or Material 3, and a choice of Flutter widgets or Tailwind-style native utilities. Riverpod, go_router, local notes, appearance settings and a strict quality gate give AI agents a small, explicit starting architecture.",
+      "category": "mobile",
+      "languages": [
+        "dart"
+      ],
+      "tags": [
+        "flutter",
+        "mobile",
+        "android",
+        "ios",
+        "web",
+        "riverpod",
+        "material",
+        "liquid-glass",
+        "utility-first",
+        "agent-ready"
+      ],
+      "stack": [
+        "Flutter 3.47.6 stable",
+        "Dart 3.13.5",
+        "Riverpod 3.4",
+        "go_router 18",
+        "Liquid Glass or Material 3",
+        "Flutter widgets or Mix / Tailwind utilities",
+        "shared_preferences 2.5 (demo storage)",
+        "flutter_test + flutter_lints 6"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A Flutter app for Android and iOS with a browser preview, a responsive Liquid Glass design or Material 3, and a choice of Flutter widgets or Tailwind-style native utilities. Riverpod, go_router, local notes, appearance settings and a strict quality gate give AI agents a small, explicit starting architecture.": "Flutter-приложение для Android и iOS с предпросмотром в браузере, адаптивным дизайном Liquid Glass или Material 3 и выбором стандартных Flutter-виджетов либо нативных утилит в стиле Tailwind. Riverpod, go_router, локальные заметки, настройки темы и строгие проверки дают ИИ-агентам небольшую понятную стартовую архитектуру.",
+          "Flutter App": "Flutter-приложение"
+        }
+      }
+    },
+    {
+      "id": "laravel-inertia",
+      "repo": "https://github.com/roma-vibe/fastdev-laravel-inertia.git",
+      "name": "Laravel + Inertia",
+      "description": "A Laravel 13 web app with an Inertia frontend: pick Vue or React, Tailwind CSS, Bootstrap or plain CSS, and SQLite, PostgreSQL or MySQL when you create the project. A Notes example goes through every layer (route, controller, form request, service, model, migration, Inertia page and components), with feature tests and one zero-warning `check` that runs Pint, Larastan, PHPUnit, ESLint, Prettier and the TypeScript compiler. Everything can run in Docker (the default), so PHP and Composer are not needed on the Mac.",
+      "category": "web",
+      "languages": [
+        "php",
+        "node"
+      ],
+      "tags": [
+        "laravel",
+        "inertia",
+        "php",
+        "fullstack",
+        "typescript",
+        "vue",
+        "react",
+        "tailwind",
+        "bootstrap",
+        "sqlite",
+        "postgres",
+        "mysql",
+        "docker",
+        "frankenphp"
+      ],
+      "stack": [
+        "PHP 8.4+ (Docker: PHP 8.5, FrankenPHP)",
+        "Laravel 13",
+        "Inertia 3",
+        "Vue 3.5 or React 19",
+        "TypeScript 6",
+        "Vite 8",
+        "Tailwind CSS 4, Bootstrap 5 or plain CSS",
+        "SQLite, PostgreSQL 18 or MySQL 8.4",
+        "PHPUnit 12, Larastan 3, Pint",
+        "ESLint 10, Prettier 3"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A Laravel 13 web app with an Inertia frontend: pick Vue or React, Tailwind CSS, Bootstrap or plain CSS, and SQLite, PostgreSQL or MySQL when you create the project. A Notes example goes through every layer (route, controller, form request, service, model, migration, Inertia page and components), with feature tests and one zero-warning `check` that runs Pint, Larastan, PHPUnit, ESLint, Prettier and the TypeScript compiler. Everything can run in Docker (the default), so PHP and Composer are not needed on the Mac.": "Веб-приложение на Laravel 13 с фронтендом на Inertia: при создании проекта выбираются Vue или React, Tailwind CSS, Bootstrap или обычный CSS, а также SQLite, PostgreSQL или MySQL. Пример «Заметки» проходит через все слои (маршрут, контроллер, form request, сервис, модель, миграция, страница Inertia и компоненты), есть feature-тесты и одна команда `check` без предупреждений: Pint, Larastan, PHPUnit, ESLint, Prettier и компилятор TypeScript. Всё может работать в Docker (по умолчанию), поэтому PHP и Composer на Mac не нужны.",
+          "Laravel + Inertia": "Laravel + Inertia"
+        }
+      }
+    },
+    {
+      "id": "node-cli",
+      "repo": "https://github.com/roma-vibe/fastdev-node-cli.git",
+      "name": "Node CLI",
+      "description": "A command-line tool in TypeScript, built with commander and bundled by tsdown into one ESM file that is ready for npm publish and npx. It comes with strict typing, ESLint, Prettier, Vitest (in-process command tests plus an end-to-end test of the real bundle), a watch mode that reruns the CLI after every change, and an example command that lists a JavaScript project's scripts. Choose it for scripts, developer tools and automation for JavaScript projects that you want to install with npm or run with npx.",
+      "category": "cli",
+      "languages": [
+        "node"
+      ],
+      "tags": [
+        "cli",
+        "typescript",
+        "commander",
+        "tsdown",
+        "npm",
+        "npx",
+        "tooling",
+        "scripts"
+      ],
+      "stack": [
+        "Node.js 24 (published CLI: Node.js 22.12+)",
+        "TypeScript 6",
+        "commander 15",
+        "tsdown 0.23 (Rolldown)",
+        "Vitest 5",
+        "ESLint 10 + typescript-eslint 8",
+        "Prettier 3",
+        "publint 0.3"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A command-line tool in TypeScript, built with commander and bundled by tsdown into one ESM file that is ready for npm publish and npx. It comes with strict typing, ESLint, Prettier, Vitest (in-process command tests plus an end-to-end test of the real bundle), a watch mode that reruns the CLI after every change, and an example command that lists a JavaScript project's scripts. Choose it for scripts, developer tools and automation for JavaScript projects that you want to install with npm or run with npx.": "Консольная утилита на TypeScript с commander, собранная tsdown в один ESM-файл, готовый к npm publish и npx. Внутри строгая типизация, ESLint, Prettier, Vitest (тесты команд в процессе и сквозной тест настоящей сборки), режим наблюдения, который перезапускает CLI после каждого изменения, и пример команды, выводящей скрипты JavaScript-проекта. Подходит для скриптов, инструментов разработчика и автоматизации JavaScript-проектов, которые ставят через npm или запускают через npx.",
+          "Node CLI": "Node CLI"
+        }
+      }
+    },
+    {
+      "id": "node-vue",
+      "repo": "https://github.com/roma-vibe/fastdev-node-vue.git",
+      "name": "Node + Vue",
+      "description": "A full-stack TypeScript web app: a Fastify 5 API and a Vue 3 single-page app (Vite, Vue Router, Pinia, Tailwind CSS 4) sharing one SQLite database through the built-in node:sqlite. A Notes example goes through every layer, from an SQL migration to a Pinia store and a page, with server and web tests and a zero-warning quality gate (ESLint, Prettier, vue-tsc, Vitest). Choose it for web apps, internal tools and prototypes that need a real backend; Docker can build the production container or run everything.",
+      "category": "web",
+      "languages": [
+        "node"
+      ],
+      "tags": [
+        "fullstack",
+        "typescript",
+        "sqlite",
+        "tailwind",
+        "fastify",
+        "vue",
+        "spa"
+      ],
+      "stack": [
+        "Node.js 24+",
+        "Fastify 5",
+        "Vue 3",
+        "Vite 8",
+        "Vue Router 5",
+        "Pinia 4",
+        "Tailwind CSS 4",
+        "SQLite (node:sqlite)",
+        "TypeScript 5.9",
+        "Vitest 5",
+        "ESLint 10"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A full-stack TypeScript web app: a Fastify 5 API and a Vue 3 single-page app (Vite, Vue Router, Pinia, Tailwind CSS 4) sharing one SQLite database through the built-in node:sqlite. A Notes example goes through every layer, from an SQL migration to a Pinia store and a page, with server and web tests and a zero-warning quality gate (ESLint, Prettier, vue-tsc, Vitest). Choose it for web apps, internal tools and prototypes that need a real backend; Docker can build the production container or run everything.": "Веб-приложение на TypeScript целиком: API на Fastify 5 и одностраничный фронтенд на Vue 3 (Vite, Vue Router, Pinia, Tailwind CSS 4) с общей базой SQLite через встроенный node:sqlite. Пример «Заметки» проходит через все слои, от SQL-миграции до Pinia-стора и страницы, с тестами сервера и фронтенда и проверкой качества без предупреждений (ESLint, Prettier, vue-tsc, Vitest). Подходит для веб-приложений, внутренних инструментов и прототипов с настоящим бэкендом; Docker может собрать продакшен-контейнер или запускать всё.",
+          "Node + Vue": "Node + Vue"
+        }
+      }
+    },
+    {
+      "id": "phaser-2d",
+      "repo": "https://github.com/roma-vibe/fastdev-phaser-2d.git",
+      "name": "Phaser 2D Game",
+      "description": "A configurable browser 2D game foundation with Phaser, TypeScript and Vite. Choose Vue, React or plain HTML menus, Arcade or Matter physics, and pixel or smooth rendering. Includes a playable exploration demo, keyboard, gamepad and touch input, audio, local saves, a replaceable asset catalog and optional Docker workflows.",
+      "category": "web",
+      "languages": [
+        "node"
+      ],
+      "tags": [
+        "phaser",
+        "2d",
+        "game",
+        "typescript",
+        "vue",
+        "react",
+        "arcade",
+        "matter",
+        "sprites",
+        "tiled"
+      ],
+      "stack": [
+        "Node.js 24+",
+        "Phaser 4.2",
+        "TypeScript 5.9",
+        "Vite 8",
+        "Vue 3, React 19 or plain HTML",
+        "Arcade or Matter physics",
+        "Tiled JSON maps",
+        "Web Audio",
+        "Vitest 5",
+        "ESLint 10 + Prettier 3"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A configurable browser 2D game foundation with Phaser, TypeScript and Vite. Choose Vue, React or plain HTML menus, Arcade or Matter physics, and pixel or smooth rendering. Includes a playable exploration demo, keyboard, gamepad and touch input, audio, local saves, a replaceable asset catalog and optional Docker workflows.": "Настраиваемая основа браузерной 2D-игры на Phaser, TypeScript и Vite. При создании выбираются меню Vue, React или обычный HTML, физика Arcade или Matter и пиксельная либо плавная отрисовка. Внутри игровой пример, управление клавиатурой, геймпадом и касаниями, звук, локальные сохранения, каталог заменяемых ассетов и опциональные режимы Docker.",
+          "Phaser 2D Game": "Phaser 2D Game"
+        }
+      }
+    },
+    {
+      "id": "react-native-expo",
+      "repo": "https://github.com/roma-vibe/fastdev-react-native-expo.git",
+      "name": "React Native + Expo",
+      "description": "A modern iOS, Android and web app foundation with Expo Router, TypeScript and an adaptive Liquid Glass interface. Includes local notes, appearance settings, accessible components, tested persistence and clear native release workflows. Optional Docker modes cover browser development and production hosting.",
+      "category": "mobile",
+      "languages": [
+        "node"
+      ],
+      "tags": [
+        "react-native",
+        "expo",
+        "ios",
+        "android",
+        "web",
+        "typescript",
+        "liquid-glass",
+        "mobile",
+        "agent-ready"
+      ],
+      "stack": [
+        "Node.js 24+",
+        "Expo SDK 57",
+        "React Native 0.86",
+        "React 19.2",
+        "Expo Router",
+        "TypeScript 5.9",
+        "Native Liquid Glass with adaptive fallbacks",
+        "AsyncStorage + SecureStore",
+        "ESLint 10 + Prettier 3",
+        "Node test runner"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A modern iOS, Android and web app foundation with Expo Router, TypeScript and an adaptive Liquid Glass interface. Includes local notes, appearance settings, accessible components, tested persistence and clear native release workflows. Optional Docker modes cover browser development and production hosting.": "Современная основа приложения для iOS, Android и браузера на Expo Router и TypeScript с адаптивным интерфейсом Liquid Glass. Включены локальные заметки, настройки темы, доступные компоненты, проверенное сохранение и инструкции по выпуску мобильных приложений. Опциональные режимы Docker поддерживают веб-разработку и запуск веб-сборки.",
+          "React Native + Expo": "React Native + Expo"
+        }
+      }
+    },
+    {
+      "id": "rust-cli",
+      "repo": "https://github.com/roma-vibe/fastdev-rust-cli.git",
+      "name": "Rust CLI",
+      "description": "A single-binary command-line tool in Rust with clap 4, anyhow and tracing. A new project has an example `stats` command with text and JSON output through every layer, unit and black-box tests, rustfmt and clippy (pedantic) with zero warnings, and a watch-and-run dev loop. For fast command-line utilities that ship as one native executable, optionally also as a small Docker image.",
+      "category": "cli",
+      "languages": [
+        "rust"
+      ],
+      "tags": [
+        "cli",
+        "rust",
+        "clap",
+        "anyhow",
+        "tracing",
+        "serde",
+        "single-binary",
+        "command-line",
+        "docker"
+      ],
+      "stack": [
+        "Rust 1.85+ (edition 2024)",
+        "clap 4 (derive)",
+        "anyhow 1",
+        "tracing 0.1 + tracing-subscriber 0.3",
+        "serde 1 + serde_json 1",
+        "assert_cmd 2 + predicates 3",
+        "rustfmt + clippy (pedantic)",
+        "Docker: rust 1.98 build, distroless runtime"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A single-binary command-line tool in Rust with clap 4, anyhow and tracing. A new project has an example `stats` command with text and JSON output through every layer, unit and black-box tests, rustfmt and clippy (pedantic) with zero warnings, and a watch-and-run dev loop. For fast command-line utilities that ship as one native executable, optionally also as a small Docker image.": "Консольная утилита на Rust в виде одного исполняемого файла: clap 4, anyhow и tracing. В новом проекте есть пример команды `stats` с выводом в виде текста и JSON через все слои, модульные тесты и тесты готового бинарника, rustfmt и clippy (pedantic) без предупреждений и цикл разработки с перезапуском при изменениях. Для быстрых утилит командной строки, которые распространяются одним нативным файлом и при желании небольшим Docker-образом.",
+          "Rust CLI": "Rust CLI"
+        }
+      }
+    },
+    {
+      "id": "rust-macos-widget",
+      "repo": "https://github.com/roma-vibe/fastdev-rust-macos-widget.git",
+      "name": "Rust macOS Widget",
+      "description": "A native floating macOS widget in Rust, with real Liquid Glass on macOS 26 and a blurred HUD fallback. Includes a global shortcut, menu bar controls, dragging, saved position and a minimal in-memory action example. A small, documented AppKit foundation for AI agents building overlay utilities.",
+      "category": "desktop",
+      "languages": [
+        "rust"
+      ],
+      "tags": [
+        "macos",
+        "widget",
+        "rust",
+        "native",
+        "liquid-glass",
+        "appkit",
+        "overlay",
+        "hotkey"
+      ],
+      "stack": [
+        "Rust 1.94+ (edition 2024)",
+        "Native AppKit · objc2 0.6",
+        "NSGlassEffectView + NSVisualEffectView",
+        "global-hotkey 0.8 (Carbon)",
+        "rustfmt + clippy + native smoke checks"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A native floating macOS widget in Rust, with real Liquid Glass on macOS 26 and a blurred HUD fallback. Includes a global shortcut, menu bar controls, dragging, saved position and a minimal in-memory action example. A small, documented AppKit foundation for AI agents building overlay utilities.": "Нативный плавающий виджет macOS на Rust с настоящим Liquid Glass в macOS 26 и запасным размытым HUD. Включает глобальную горячую клавишу, меню в строке macOS, перетаскивание, сохранение позиции и минимальный пример действия в памяти. Небольшая документированная основа на AppKit для ИИ-агентов, создающих утилиты поверх окон.",
+          "Rust macOS Widget": "Rust macOS Widget"
+        }
+      }
+    },
+    {
+      "id": "tauri-vue",
+      "repo": "https://github.com/roma-vibe/fastdev-tauri-vue.git",
+      "name": "Tauri + Vue",
+      "description": "A native macOS desktop app on Tauri 2: a Rust core with SQLite and a Vue 3 + TypeScript + Tailwind CSS 4 interface in the system WebView. A Notes example goes through every layer, with tests on both sides and a zero-warning quality gate; Dev opens the app window with hot reload, and Build makes an ad-hoc signed .app and .dmg. For small, fast desktop tools and local-first apps for the Mac.",
+      "category": "desktop",
+      "languages": [
+        "rust",
+        "node"
+      ],
+      "tags": [
+        "desktop",
+        "macos",
+        "tauri",
+        "vue",
+        "typescript",
+        "tailwind",
+        "sqlite",
+        "rust",
+        "native",
+        "dmg",
+        "local-first"
+      ],
+      "stack": [
+        "Tauri 2.12",
+        "Rust 1.90+ (edition 2024)",
+        "SQLite (rusqlite 0.40, bundled)",
+        "Vue 3.5",
+        "TypeScript 6.0",
+        "Vite 8",
+        "Tailwind CSS 4",
+        "Pinia 4",
+        "Vue Router 5",
+        "Vitest 5",
+        "ESLint 10 + Prettier 3",
+        "Clippy + rustfmt",
+        "Node.js 24+"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A native macOS desktop app on Tauri 2: a Rust core with SQLite and a Vue 3 + TypeScript + Tailwind CSS 4 interface in the system WebView. A Notes example goes through every layer, with tests on both sides and a zero-warning quality gate; Dev opens the app window with hot reload, and Build makes an ad-hoc signed .app and .dmg. For small, fast desktop tools and local-first apps for the Mac.": "Нативное десктопное приложение для macOS на Tauri 2: ядро на Rust с SQLite и интерфейс на Vue 3 + TypeScript + Tailwind CSS 4 в системном WebView. Пример «Заметки» проходит через все слои, есть тесты с обеих сторон и контроль качества без предупреждений; Dev открывает окно приложения с горячей перезагрузкой, а сборка создаёт .app и .dmg с ad-hoc подписью. Для небольших быстрых утилит и local-first приложений для Mac.",
+          "Tauri + Vue": "Tauri + Vue"
+        }
+      }
+    },
+    {
+      "id": "telegram-bot",
+      "repo": "https://github.com/roma-vibe/fastdev-telegram-bot.git",
+      "name": "Telegram Bot",
+      "description": "Telegram bot in Python on aiogram 3 with SQLite, long polling in development and polling or a webhook in production. It ships a notes example that goes through handlers, services, repositories and SQL migrations, a browser playground to chat with the bot locally without a token, pytest tests, Ruff and strict mypy. Choose it for chat, helper and notification bots that keep their own data; Docker can run everything, so only Docker or uv is needed on the Mac.",
+      "category": "other",
+      "languages": [
+        "python"
+      ],
+      "tags": [
+        "telegram",
+        "bot",
+        "chatbot",
+        "aiogram",
+        "python",
+        "sqlite",
+        "webhook",
+        "polling",
+        "asyncio",
+        "uv"
+      ],
+      "stack": [
+        "Python 3.14",
+        "aiogram 3",
+        "aiohttp 3",
+        "SQLite (aiosqlite 0.22)",
+        "pydantic-settings 2",
+        "uv 0.12",
+        "Poe the Poet 0.48",
+        "pytest 9 + pytest-asyncio 1",
+        "Ruff 0.16",
+        "mypy 2 (strict)"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "Telegram Bot": "Telegram-бот",
+          "Telegram bot in Python on aiogram 3 with SQLite, long polling in development and polling or a webhook in production. It ships a notes example that goes through handlers, services, repositories and SQL migrations, a browser playground to chat with the bot locally without a token, pytest tests, Ruff and strict mypy. Choose it for chat, helper and notification bots that keep their own data; Docker can run everything, so only Docker or uv is needed on the Mac.": "Telegram-бот на Python и aiogram 3 с SQLite: long polling при разработке, polling или вебхук в продакшене. Внутри пример заметок через обработчики, сервисы, репозитории и SQL-миграции, песочница в браузере, чтобы общаться с ботом локально без токена, тесты pytest, Ruff и строгий mypy. Подходит для чат-ботов, ботов-помощников и уведомлений со своими данными; Docker может запускать всё, поэтому на Mac нужен только Docker или uv."
+        }
+      }
+    },
+    {
+      "id": "threejs-voxel",
+      "repo": "https://github.com/roma-vibe/fastdev-threejs-voxel.git",
+      "name": "Three.js Voxel Game",
+      "description": "A style-independent browser voxel game foundation with Three.js rendering, PixiJS HUD, Vue menus and an animated third-person character. The playable demo includes exploration, combat, block editing, checkpoints and local saves. Central appearance configuration controls materials, character proportions, effects and interface colors, with tests and optional Docker workflows.",
+      "category": "web",
+      "languages": [
+        "node"
+      ],
+      "tags": [
+        "threejs",
+        "voxel",
+        "game",
+        "pixi",
+        "vue",
+        "javascript",
+        "3d",
+        "configurable-style"
+      ],
+      "stack": [
+        "Node.js 24+",
+        "Three.js",
+        "PixiJS 8",
+        "Vue 3",
+        "Vite 8",
+        "JavaScript ESM",
+        "Web Audio",
+        "Vitest 5",
+        "ESLint 10"
+      ],
+      "latest": "1.0.0",
+      "forkedFrom": {
+        "id": "threejs-voxel-pixel",
+        "version": "1.0.0"
+      },
+      "translations": {
+        "ru": {
+          "A style-independent browser voxel game foundation with Three.js rendering, PixiJS HUD, Vue menus and an animated third-person character. The playable demo includes exploration, combat, block editing, checkpoints and local saves. Central appearance configuration controls materials, character proportions, effects and interface colors, with tests and optional Docker workflows.": "Универсальная основа браузерной воксельной игры: рендеринг Three.js, HUD на PixiJS, меню Vue и анимированный персонаж от третьего лица. Демоуровень включает исследование, бой, редактирование блоков, чекпоинты и локальные сохранения. Материалы, пропорции персонажей, эффекты и оформление интерфейса настраиваются отдельно. Включены тесты и опциональные режимы Docker.",
+          "Three.js Voxel Game": "Three.js Voxel Game"
+        }
+      }
+    },
+    {
+      "id": "threejs-voxel-pixel",
+      "repo": "https://github.com/roma-vibe/fastdev-threejs-voxel-pixel.git",
+      "name": "Three.js Voxel Game, Pixel Style",
+      "description": "A browser voxel action-adventure starter in a blocky pixel-art style: procedural pixel textures and character skins, an animated third-person character, Three.js rendering, PixiJS HUD and Vue menus. A small original demo covers exploration, combat, block editing, checkpoints and local saves. Use it as the foundation for a voxel game, with quality checks and optional Docker workflows.",
+      "category": "web",
+      "languages": [
+        "node"
+      ],
+      "tags": [
+        "threejs",
+        "voxel",
+        "pixel-art",
+        "blocky",
+        "game",
+        "pixi",
+        "vue",
+        "javascript",
+        "3d"
+      ],
+      "stack": [
+        "Node.js 24+",
+        "Three.js",
+        "PixiJS 8",
+        "Vue 3",
+        "Vite 8",
+        "JavaScript ESM",
+        "Web Audio",
+        "Vitest 5",
+        "ESLint 10"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A browser voxel action-adventure starter in a blocky pixel-art style: procedural pixel textures and character skins, an animated third-person character, Three.js rendering, PixiJS HUD and Vue menus. A small original demo covers exploration, combat, block editing, checkpoints and local saves. Use it as the foundation for a voxel game, with quality checks and optional Docker workflows.": "Основа браузерной воксельной приключенческой игры в блочном пиксель-арт стиле: процедурные пиксельные текстуры и скины персонажей, анимированный персонаж от третьего лица, рендеринг Three.js, HUD на PixiJS и меню на Vue. Небольшой самостоятельный демоуровень показывает исследование мира, бой, редактирование блоков, чекпоинты и локальные сохранения. Подходит для разработки воксельных игр; включает проверки качества и опциональные режимы Docker.",
+          "Three.js Voxel Game, Pixel Style": "Воксельная игра на Three.js, пиксельный стиль"
+        }
+      }
+    }
+  ]
+}
