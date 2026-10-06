@@ -48,7 +48,7 @@
     },
     {
       "id": "claude-code-mod",
-      "repo": "/Users/roman/Documents/fastDev-library/skeletons/claude-code-mod",
+      "repo": "https://github.com/roma-vibe/fastdev-claude-code-mod.git",
       "name": "Claude Code Mod",
       "description": "A mod for Claude Code: a plugin of function hooks written in TypeScript that hot-reloads in the running session. It ships one tiny feature, the text “Hello from fastDev” in Claude Code's status line, and everything around it that a real mod needs: a `/<name>` slash command (status, on, off, reload, ui), a settings file shared by the hooks and a local settings page (Vue 3, styled with Tailwind CSS 4 or plain CSS, your choice) with an on/off switch, a language choice (English or Russian) and the greeting text, a dependency-free settings server, unit tests with a fake engine, ESLint, and Claude Code's own validator in the quality gate. Choose it to start a new mod quickly: replace the greeting with the real behaviour and add settings one by one.",
       "category": "other",
