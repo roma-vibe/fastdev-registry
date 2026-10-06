@@ -47,6 +47,43 @@
       }
     },
     {
+      "id": "claude-code-mod",
+      "repo": "/Users/roman/Documents/fastDev-library/skeletons/claude-code-mod",
+      "name": "Claude Code Mod",
+      "description": "A mod for Claude Code: a plugin of function hooks written in TypeScript that hot-reloads in the running session. It ships one tiny feature, the text “Hello from fastDev” in Claude Code's status line, and everything around it that a real mod needs: a `/<name>` slash command (status, on, off, reload, ui), a settings file shared by the hooks and a local settings page (Vue 3, styled with Tailwind CSS 4 or plain CSS, your choice) with an on/off switch, a language choice (English or Russian) and the greeting text, a dependency-free settings server, unit tests with a fake engine, ESLint, and Claude Code's own validator in the quality gate. Choose it to start a new mod quickly: replace the greeting with the real behaviour and add settings one by one.",
+      "category": "other",
+      "languages": [
+        "node"
+      ],
+      "tags": [
+        "claude-code",
+        "mod",
+        "plugin",
+        "hooks",
+        "typescript",
+        "vue",
+        "tailwind",
+        "eslint"
+      ],
+      "stack": [
+        "Claude Code mod (function hooks)",
+        "TypeScript 5.9",
+        "Node.js 24+",
+        "Vue 3",
+        "Vite 8",
+        "Tailwind CSS 4 (or plain CSS)",
+        "Vitest 5",
+        "ESLint 10"
+      ],
+      "latest": "1.0.0",
+      "translations": {
+        "ru": {
+          "A mod for Claude Code: a plugin of function hooks written in TypeScript that hot-reloads in the running session. It ships one tiny feature, the text “Hello from fastDev” in Claude Code's status line, and everything around it that a real mod needs: a `/<name>` slash command (status, on, off, reload, ui), a settings file shared by the hooks and a local settings page (Vue 3, styled with Tailwind CSS 4 or plain CSS, your choice) with an on/off switch, a language choice (English or Russian) and the greeting text, a dependency-free settings server, unit tests with a fake engine, ESLint, and Claude Code's own validator in the quality gate. Choose it to start a new mod quickly: replace the greeting with the real behaviour and add settings one by one.": "Мод для Claude Code: плагин из функциональных хуков на TypeScript, который перезагружается на лету в запущенной сессии. Содержит одну крошечную функцию — текст «Hello from fastDev» в строке состояния Claude Code — и всё, что нужно настоящему моду: слэш-команду `/<имя>` (status, on, off, reload, ui), файл настроек, общий для хуков и локальной страницы настроек (Vue 3, оформление на Tailwind CSS 4 или на обычном CSS — на выбор) с переключателем, выбором языка (английский или русский) и текстом приветствия, сервер настроек без зависимостей, юнит-тесты с поддельным движком, ESLint и встроенную проверку Claude Code в проверочном скрипте. Подходит, чтобы быстро начать новый мод: замените приветствие настоящим поведением и добавляйте настройки по одной.",
+          "Claude Code Mod": "Мод для Claude Code"
+        }
+      }
+    },
+    {
       "id": "flutter-app",
       "repo": "https://github.com/roma-vibe/fastdev-flutter-app.git",
       "name": "Flutter App",
