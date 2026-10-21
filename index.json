@@ -399,7 +399,7 @@
     },
     {
       "id": "rust-vue-microservices",
-      "repo": "/Users/roman/Documents/fastDev-library/skeletons/rust-vue-microservices",
+      "repo": "https://github.com/roma-vibe/fastdev-rust-vue-microservices.git",
       "name": "Rust + Vue microservices",
       "description": "A web app built from small Rust microservices (axum, tokio, SQLite through sqlx) behind an edge reverse proxy, with a modular Vue 3 single-page app (Vite, Pinia, Vue Router, vue-i18n in English and Russian, Tailwind CSS 4) in a liquid glass design with light and dark themes. A shared core crate gives every service config from .env, a service registry, migrations, JSON errors, encryption of secrets and a one-line bootstrap; a Notes service and web module show every layer, and optional accounts add registration, cookie sessions, personal API keys and route guards. Choose it for products that will grow into several backend services and feature modules, with a zero-warning quality gate (clippy, rustfmt, ESLint, Prettier, vue-tsc, cargo test, Vitest).",
       "category": "web",
