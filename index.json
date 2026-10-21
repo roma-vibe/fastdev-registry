@@ -433,7 +433,7 @@
         "Vitest 5",
         "Node.js 24+"
       ],
-      "latest": "1.2.0",
+      "latest": "1.0.0",
       "translations": {
         "ru": {
           "A web app built from small Rust microservices (axum, tokio, SQLite through sqlx) behind an edge reverse proxy, with a modular Vue 3 single-page app (Vite, Pinia, Vue Router, vue-i18n in English and Russian, Tailwind CSS 4) in a liquid glass design with light and dark themes. A shared core crate gives every service config from .env, a service registry, migrations, JSON errors, encryption of secrets and a one-line bootstrap; a Notes service and web module show every layer, and optional accounts add registration, cookie sessions, personal API keys and route guards. Choose it for products that will grow into several backend services and feature modules, with a zero-warning quality gate (clippy, rustfmt, ESLint, Prettier, vue-tsc, cargo test, Vitest).": "Веб-приложение из небольших микросервисов на Rust (axum, tokio, SQLite через sqlx) за пограничным обратным прокси и модульное одностраничное приложение на Vue 3 (Vite, Pinia, Vue Router, vue-i18n на английском и русском, Tailwind CSS 4) в дизайне liquid glass со светлой и тёмной темами. Общий core-крейт даёт каждому сервису конфигурацию из .env, реестр сервисов, миграции, JSON-ошибки, шифрование секретов и запуск одной строкой; сервис и веб-модуль Notes показывают все слои, а опциональные аккаунты добавляют регистрацию, cookie-сессии, личные API-ключи и защиту маршрутов. Подходит для продуктов, которые вырастут в несколько бэкенд-сервисов и модулей интерфейса, с проверкой качества без предупреждений (clippy, rustfmt, ESLint, Prettier, vue-tsc, cargo test, Vitest).",
