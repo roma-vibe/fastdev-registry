@@ -398,6 +398,56 @@
       }
     },
     {
+      "id": "rust-vue-bridges",
+      "repo": "https://github.com/roma-vibe/fastdev-rust-vue-bridges.git",
+      "name": "Rust + Vue bridges",
+      "description": "A web app of small Rust services (axum, tokio, SQLite through sqlx) that run as ONE process by default, connected by in-process bridges, so the whole backend takes about 11 MB of memory, and split back into separate microservices over HTTP with BRIDGES=off or SEPARATE_SERVICES, without any code change. A modular Vue 3 single-page app (Vite, Pinia, Vue Router, vue-i18n in English and Russian, Tailwind CSS 4) in a liquid glass design with light and dark themes. A shared core crate gives every service config from .env, a service registry, migrations, JSON errors, encryption of secrets, ctx.call for service-to-service calls and a one-line bootstrap; a Notes service and web module show every layer, and optional accounts add registration, cookie sessions, personal API keys and route guards. Choose it for products that start as a modular monolith and may grow into microservices later, with a zero-warning quality gate (clippy, rustfmt, ESLint, Prettier, vue-tsc, cargo test, Vitest).",
+      "category": "web",
+      "languages": [
+        "rust",
+        "node"
+      ],
+      "tags": [
+        "fullstack",
+        "bridges",
+        "modular-monolith",
+        "microservices",
+        "rust",
+        "axum",
+        "sqlite",
+        "vue",
+        "spa",
+        "tailwind",
+        "i18n"
+      ],
+      "stack": [
+        "Rust 2024 (1.89+)",
+        "axum 0.8",
+        "tokio",
+        "sqlx 0.8 (SQLite)",
+        "Vue 3",
+        "Vite 8",
+        "Vue Router 5",
+        "Pinia 4",
+        "vue-i18n 11",
+        "Tailwind CSS 4",
+        "TypeScript 5.9",
+        "Vitest 5",
+        "Node.js 24+"
+      ],
+      "latest": "1.0.0",
+      "forkedFrom": {
+        "id": "rust-vue-microservices",
+        "version": "1.0.0"
+      },
+      "translations": {
+        "ru": {
+          "A web app of small Rust services (axum, tokio, SQLite through sqlx) that run as ONE process by default, connected by in-process bridges, so the whole backend takes about 11 MB of memory, and split back into separate microservices over HTTP with BRIDGES=off or SEPARATE_SERVICES, without any code change. A modular Vue 3 single-page app (Vite, Pinia, Vue Router, vue-i18n in English and Russian, Tailwind CSS 4) in a liquid glass design with light and dark themes. A shared core crate gives every service config from .env, a service registry, migrations, JSON errors, encryption of secrets, ctx.call for service-to-service calls and a one-line bootstrap; a Notes service and web module show every layer, and optional accounts add registration, cookie sessions, personal API keys and route guards. Choose it for products that start as a modular monolith and may grow into microservices later, with a zero-warning quality gate (clippy, rustfmt, ESLint, Prettier, vue-tsc, cargo test, Vitest).": "Веб-приложение из небольших сервисов на Rust (axum, tokio, SQLite через sqlx), которые по умолчанию работают одним процессом и связаны внутрипроцессными мостами, поэтому весь бэкенд занимает около 11 МБ памяти; с BRIDGES=off или SEPARATE_SERVICES они снова разделяются на отдельные микросервисы по HTTP без изменений в коде. Модульное одностраничное приложение на Vue 3 (Vite, Pinia, Vue Router, vue-i18n на английском и русском, Tailwind CSS 4) в дизайне liquid glass со светлой и тёмной темами. Общий core-крейт даёт каждому сервису конфигурацию из .env, реестр сервисов, миграции, JSON-ошибки, шифрование секретов, ctx.call для вызовов между сервисами и запуск одной строкой; сервис и веб-модуль Notes показывают все слои, а опциональные аккаунты добавляют регистрацию, cookie-сессии, личные API-ключи и защиту маршрутов. Подходит для продуктов, которые начинаются как модульный монолит и со временем могут вырасти в микросервисы, с проверкой качества без предупреждений (clippy, rustfmt, ESLint, Prettier, vue-tsc, cargo test, Vitest).",
+          "Rust + Vue bridges": "Rust + Vue: мосты"
+        }
+      }
+    },
+    {
       "id": "rust-vue-microservices",
       "repo": "https://github.com/roma-vibe/fastdev-rust-vue-microservices.git",
       "name": "Rust + Vue microservices",
