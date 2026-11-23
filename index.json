@@ -188,7 +188,7 @@
         "scripts"
       ],
       "stack": [
-        "Node.js 24 (published CLI: Node.js 22.12+)",
+        "Node.js 24 (published CLI: Node.js 22.18+)",
         "TypeScript 6",
         "commander 15",
         "tsdown 0.23 (Rolldown)",
@@ -197,7 +197,7 @@
         "Prettier 3",
         "publint 0.3"
       ],
-      "latest": "1.0.0",
+      "latest": "1.1.0",
       "translations": {
         "ru": {
           "A command-line tool in TypeScript, built with commander and bundled by tsdown into one ESM file that is ready for npm publish and npx. It comes with strict typing, ESLint, Prettier, Vitest (in-process command tests plus an end-to-end test of the real bundle), a watch mode that reruns the CLI after every change, and an example command that lists a JavaScript project's scripts. Choose it for scripts, developer tools and automation for JavaScript projects that you want to install with npm or run with npx.": "Консольная утилита на TypeScript с commander, собранная tsdown в один ESM-файл, готовый к npm publish и npx. Внутри строгая типизация, ESLint, Prettier, Vitest (тесты команд в процессе и сквозной тест настоящей сборки), режим наблюдения, который перезапускает CLI после каждого изменения, и пример команды, выводящей скрипты JavaScript-проекта. Подходит для скриптов, инструментов разработчика и автоматизации JavaScript-проектов, которые ставят через npm или запускают через npx.",
