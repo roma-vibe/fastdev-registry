@@ -329,7 +329,7 @@
       "id": "rust-cli",
       "repo": "https://github.com/roma-vibe/fastdev-rust-cli.git",
       "name": "Rust CLI",
-      "description": "A single-binary command-line tool in Rust with clap 4, anyhow and tracing. A new project has an example `stats` command with text and JSON output through every layer, unit and black-box tests, rustfmt and clippy (pedantic) with zero warnings, and a watch-and-run dev loop. For fast command-line utilities that ship as one native executable, optionally also as a small Docker image.",
+      "description": "A single-binary command-line tool in Rust with clap 4, anyhow and tracing. A new project has an example `stats` command with text and JSON output through every layer, unit and black-box tests, a watch-and-run dev loop, and a zero-warning quality gate (rustfmt, clippy pedantic, tests, walls, secbase). An optional MCP server (an `mcp` command on the official rmcp SDK, over stdio) offers the same commands as tools to Claude Code and other agents. For fast command-line utilities and agent tools that ship as one native executable, optionally also as a small Docker image.",
       "category": "cli",
       "languages": [
         "rust"
@@ -343,22 +343,30 @@
         "serde",
         "single-binary",
         "command-line",
-        "docker"
+        "docker",
+        "mcp",
+        "mcp-server",
+        "rmcp",
+        "agent-tools",
+        "walls",
+        "secbase"
       ],
       "stack": [
-        "Rust 1.85+ (edition 2024)",
+        "Rust 1.88+ (edition 2024)",
         "clap 4 (derive)",
         "anyhow 1",
         "tracing 0.1 + tracing-subscriber 0.3",
         "serde 1 + serde_json 1",
         "assert_cmd 2 + predicates 3",
         "rustfmt + clippy (pedantic)",
+        "walls + secbase (quality and security gate)",
+        "Optional MCP server: rmcp 3.11 (stdio) + schemars 1 + tokio",
         "Docker: rust 1.98 build, distroless runtime"
       ],
-      "latest": "1.0.0",
+      "latest": "1.1.0",
       "translations": {
         "ru": {
-          "A single-binary command-line tool in Rust with clap 4, anyhow and tracing. A new project has an example `stats` command with text and JSON output through every layer, unit and black-box tests, rustfmt and clippy (pedantic) with zero warnings, and a watch-and-run dev loop. For fast command-line utilities that ship as one native executable, optionally also as a small Docker image.": "Консольная утилита на Rust в виде одного исполняемого файла: clap 4, anyhow и tracing. В новом проекте есть пример команды `stats` с выводом в виде текста и JSON через все слои, модульные тесты и тесты готового бинарника, rustfmt и clippy (pedantic) без предупреждений и цикл разработки с перезапуском при изменениях. Для быстрых утилит командной строки, которые распространяются одним нативным файлом и при желании небольшим Docker-образом.",
+          "A single-binary command-line tool in Rust with clap 4, anyhow and tracing. A new project has an example `stats` command with text and JSON output through every layer, unit and black-box tests, a watch-and-run dev loop, and a zero-warning quality gate (rustfmt, clippy pedantic, tests, walls, secbase). An optional MCP server (an `mcp` command on the official rmcp SDK, over stdio) offers the same commands as tools to Claude Code and other agents. For fast command-line utilities and agent tools that ship as one native executable, optionally also as a small Docker image.": "Консольная утилита на Rust в виде одного исполняемого файла: clap 4, anyhow и tracing. В новом проекте есть пример команды `stats` с выводом в виде текста и JSON через все слои, модульные тесты и тесты готового бинарника, цикл разработки с перезапуском при изменениях и проверка качества без предупреждений (rustfmt, clippy pedantic, тесты, walls, secbase). Опциональный MCP-сервер (команда `mcp` на официальном SDK rmcp, через stdio) открывает те же команды как инструменты для Claude Code и других агентов. Для быстрых утилит командной строки и инструментов для агентов, которые распространяются одним нативным файлом и при желании небольшим Docker-образом.",
           "Rust CLI": "Rust CLI"
         }
       }
