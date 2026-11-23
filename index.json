@@ -236,7 +236,7 @@
         "Vitest 5",
         "ESLint 10"
       ],
-      "latest": "1.1.0",
+      "latest": "1.2.0",
       "translations": {
         "ru": {
           "A full-stack TypeScript web app: a Fastify 5 API and a Vue 3 single-page app (Vite, Vue Router, Pinia, Tailwind CSS 4) sharing one SQLite database through the built-in node:sqlite. A Notes example goes through every layer, from an SQL migration to a Pinia store and a page, with server and web tests and a zero-warning quality gate (ESLint, Prettier, vue-tsc, Vitest). Choose it for web apps, internal tools and prototypes that need a real backend; Docker can build the production container or run everything.": "Веб-приложение на TypeScript целиком: API на Fastify 5 и одностраничный фронтенд на Vue 3 (Vite, Vue Router, Pinia, Tailwind CSS 4) с общей базой SQLite через встроенный node:sqlite. Пример «Заметки» проходит через все слои, от SQL-миграции до Pinia-стора и страницы, с тестами сервера и фронтенда и проверкой качества без предупреждений (ESLint, Prettier, vue-tsc, Vitest). Подходит для веб-приложений, внутренних инструментов и прототипов с настоящим бэкендом; Docker может собрать продакшен-контейнер или запускать всё.",
