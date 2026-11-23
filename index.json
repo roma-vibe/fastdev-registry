@@ -529,7 +529,7 @@
         "Clippy + rustfmt",
         "Node.js 24+"
       ],
-      "latest": "1.1.0",
+      "latest": "1.2.0",
       "translations": {
         "ru": {
           "A native macOS desktop app on Tauri 2: a Rust core with SQLite and a Vue 3 + TypeScript + Tailwind CSS 4 interface in the system WebView. A Notes example goes through every layer, with tests on both sides and a zero-warning quality gate; Dev opens the app window with hot reload, and Build makes an ad-hoc signed .app and .dmg. For small, fast desktop tools and local-first apps for the Mac.": "Нативное десктопное приложение для macOS на Tauri 2: ядро на Rust с SQLite и интерфейс на Vue 3 + TypeScript + Tailwind CSS 4 в системном WebView. Пример «Заметки» проходит через все слои, есть тесты с обеих сторон и контроль качества без предупреждений; Dev открывает окно приложения с горячей перезагрузкой, а сборка создаёт .app и .dmg с ad-hoc подписью. Для небольших быстрых утилит и local-first приложений для Mac.",
